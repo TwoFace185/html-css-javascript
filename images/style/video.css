@@ -6,6 +6,24 @@ p{
 
    .thumbnail {
      width: 100%;
+     
+   }
+
+   .time-stamp{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+   
+
    }
 
    .search-bar {
@@ -20,6 +38,7 @@ p{
 
    .thumbnail-row{
      margin-bottom: 12px;
+     position: relative;
      
    }
    .video-author{

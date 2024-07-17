@@ -20,6 +20,7 @@ body{
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgb(224, 224, 224);
+    z-index: 100;
 
     
    
@@ -112,4 +113,21 @@ body{
 .search-icon{
     height: 26px !important;
     margin: 4px;
+}
+
+.notification{
+    position: relative;
+}
+.number{
+    background-color: rgb(160, 4, 4);
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: -2px;
+    right: -4px;
 }
